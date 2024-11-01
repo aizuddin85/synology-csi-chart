@@ -109,6 +109,7 @@ storageClasses:
     reclaimPolicy: Delete
     test: true
   nfs-retain:
+    isDefault: true
     mountOptions:
       - vers=4.1
     parameters:
